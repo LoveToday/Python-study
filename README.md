@@ -69,6 +69,17 @@ Python基础
     num1 = "calc"
     print(type(num1))
     
+8.复数数据类型
+
+    复数
+    data = 1+2j
+    print(data)
+    print(type(data))
+    <class 'complex'>
+    
+
+    
+    
     
     
     
