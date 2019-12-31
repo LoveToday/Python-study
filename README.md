@@ -17,4 +17,73 @@ Python基础
     
 2.标识符
 
-    标识符只能由字母、下划线和数字组成，但不能以数字开头
+    标识符只能由字母、下划线和数字组成，但不能以数字开头；
+    python中的标识符是区分大小写的
+    命名规则：1.见名知意 2.驼峰命名法
+    
+3.关键字
+    
+    编译器自带关键字，不予许用于命名变量函数类
+    使用keyword.kwlist查看关键词
+    【False, None, True, and, as, assert, break, class,...
+    
+4.输入、输出
+
+    input是输入，print是输出
+    myString = input('请输入数据')
+    print(myString)
+    os.system(myString)
+
+5.变量赋值的原理
+
+    type(var) 求var的类型
+    print(type(13))
+    class 'int'
+    
+    id(var)内存地址
+    print(id(13))
+    1459008960
+    
+6.注释
+
+    A.多行注释
+    '''
+    多行注释
+    1
+    2
+    3
+    end
+    '''
+    B.# 单行注释
+    
+7.变量赋值的原理
+
+    python变量可以改变数据类型
+    原理就是地址赋值
+    num1 = 10
+    print(num1)
+    print(type(num1))
+    num1 = 20
+    print(num1)
+    print(type(num1))
+    num1 = "calc"
+    print(type(num1))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
